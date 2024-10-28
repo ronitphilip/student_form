@@ -9,15 +9,15 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(white, rgb(191, 243, 255), rgb(13, 204, 242));
+  background: black;
 }
 
 form {
-  background-color: white;
+  color: white;
+  background-color: rgb(33, 33, 33);
   padding: 20px 40px;
   border-radius: 10px;
   background-size: cover;
-  background-image: url(./assets/bg.jpeg);
   width: 90%;
   max-width: 700px;
 }
@@ -48,21 +48,26 @@ h1 {
 
 input, select {
   padding: 15px;
-  border-radius: 5px;
-  border: 1px solid #000000;
+  border: none;
+  outline: none;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  border-bottom: 2px solid #ffffff;
   width: 100%; 
   box-sizing: border-box;
 }
 
 input:focus, select:focus {
   outline: none;
-  border-color: #007BFF; 
+  border: transparent;
+  color: rgb(255, 255, 255);
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 label {
   font-size: 14px;
-  color: black;
+  margin-bottom: 8px;
+  color: rgb(255, 255, 255);
 }
 
 span {
