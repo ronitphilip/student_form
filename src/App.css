@@ -2,7 +2,7 @@
   margin: 0;
   font-family: "Raleway", sans-serif;
   box-sizing: border-box;
-}
+} 
 
 .app {
   display: flex;
@@ -61,7 +61,7 @@ input:focus, select:focus {
   outline: none;
   border: transparent;
   color: rgb(255, 255, 255);
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  border-bottom: 2px solid #ffffff;
 }
 
 label {
@@ -78,7 +78,7 @@ span {
 }
 
 input:invalid[focused="true"] {
-  border: 1px solid red;
+  border: 0px 0px 1px 0px solid red;
 }
 
 input:invalid[focused="true"] ~ span {
